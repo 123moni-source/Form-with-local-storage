@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form design</title>
+    <link rel="stylesheet" href="./Design.css">
+   
+</head>
+
+<body>
+    <h1>Good Vibes Form</h1>
+        <form action="" class="container">
+            <h3>Tell us something good that happened to you today.</h3>
+            <div class="Name">
+                <label for="name">Name</label>
+                <input type="text" name="name" placeholder="Enter your name">
+            </div>
+            <div class="Email">
+                <label for="email">Email</label>
+                <input type="text" name="email" placeholder="Enter your email address">
+            </div>
+            <div class="Scale">
+                <label for="number">On a scale of 1-10, how good was it?</label>
+                <input type="number" name="number" placeholder="Enter a number between 1 and 10">
+            </div>
+            <div class="Place">
+                <label for="place">Where did it happen?</label>
+                <select name="place" >
+                    <option value="Home" selected>At home</option>
+                    <option value="College" >At college</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+            <div class="Time">
+                <label for="time">At what time of day did it happen?</label>
+                <div class="option">
+                <div class="opt"><input type="radio" name="time" id="">Morning</div>
+                <div class="opt"><input type="radio" name="time" id="">Afternoon</div>
+                <div class="opt"><input type="radio" name="time" id="">Evening</div>
+            </div>
+            </div>
+            <div class="Emotion">
+                <label for="emotion">What emotions did you experience?<br>(Select all that apply)</label>
+                <div class="emotions">
+                    <div class="emo"><input type="checkbox" name="emotion" id="">Excited</div>
+                    <div class="emo"><input type="checkbox" name="emotion" id="">Humbled</div>
+                    <div class="emo"><input type="checkbox" name="emotion" id="">Elated</div>
+                    <div class="emo"><input type="checkbox" name="emotion" id="">Loved</div>
+                    <div class="emo"><input type="checkbox" name="emotion" id="">Enthusiastic</div>
+                </div>
+            </div>
+            <div class="Experience">
+                <label for="describe">Please describe your positive experience. </label>
+                <input type="text" name="describe" placeholder="Enter your experience here..." class="des">
+            </div>
+            <div class="Button">
+                <input type="submit">
+            </div>
+        </form>
+</body>
+
+</html>
+
+
+
+
+
